@@ -20,3 +20,8 @@ func main() {
 	Result = Sha1Inst.Sum([]byte(""))
 	fmt.Printf("%x\n\n", Result)
 }
+
+//G:\GitHub\learnGo\Go语言编程\ch06_安全编程>go run hash1.go
+//70af690adf124b2e828b4d8904ad142a
+
+//49d37c25ef2a62b4cfcf3689c649510390e14875

@@ -17,5 +17,9 @@ func rootHandler(w http.ResponseWriter, req *http.Request) {
 }
 func main() {
 	http.HandleFunc(fmt.Sprintf("%s:%d/", SERVER_DOMAIN, SERVER_PORT), rootHandler)
-	http.ListenAndServeTLS(fmt.Sprintf(":%d", SERVER_PORT), "rui.crt", "rui.key", nil)
+	// HTTPS
+	http.ListenAndServeTLS(fmt.Sprintf(":%d", SERVER_PORT), "server.crt", "server.key", nil)
+
+	// HTTP
+	// http.ListenAndServe(fmt.Sprintf(":%d", SERVER_PORT), nil)
 }

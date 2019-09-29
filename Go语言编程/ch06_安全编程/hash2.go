@@ -10,7 +10,7 @@ import (
 )
 
 func main() {
-	TestFile := "123.txt"
+	TestFile := "hash2.go"
 	infile, inerr := os.Open(TestFile)
 	if inerr == nil {
 		md5h := md5.New()
@@ -24,3 +24,7 @@ func main() {
 		os.Exit(1)
 	}
 }
+
+//G:\GitHub\learnGo\Go语言编程\ch06_安全编程>go run hash2.go
+//3fc83c87fe7eace05cd260f5488408b5 hash2.go
+//da39a3ee5e6b4b0d3255bfef95601890afd80709 hash2.go
