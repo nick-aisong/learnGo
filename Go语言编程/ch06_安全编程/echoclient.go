@@ -9,8 +9,8 @@ import (
 
 func main() {
 	// 如果config 参数是nil，会报错：dial: x509: certificate signed by unknown authority
-	conn, err := tls.Dial("tcp", "127.0.0.1:8000", nil)
-	// 忽略CA是否可信任校验
+	// conn, err := tls.Dial("tcp", "127.0.0.1:8000", nil)
+	// 忽略CA是否可信任校验，单向信任服务端证书
 	conn, err := tls.Dial("tcp", "127.0.0.1:8000", &tls.Config{RootCAs: nil, InsecureSkipVerify: true})
 	if err != nil {
 		log.Fatalf("client: dial: %s", err)
