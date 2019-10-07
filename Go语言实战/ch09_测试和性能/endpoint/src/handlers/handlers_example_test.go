@@ -31,3 +31,10 @@ func ExampleSendJSON() {
 }
 
 // go test -v -run="ExampleSendJSON"
+
+// G:\GitHub\learnGo\Go语言实战\ch09_测试和性能\endpoint>set GOPATH=G:\GitHub\learnGo\Go语言实战\ch09_测试和性能\endpoint
+// G:\GitHub\learnGo\Go语言实战\ch09_测试和性能\endpoint\src\handlers>go test -v -run="ExampleSendJSON"
+// === RUN   ExampleSendJSON
+// --- PASS: ExampleSendJSON (0.00s)
+// PASS
+// ok      handlers        1.867s

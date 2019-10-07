@@ -47,4 +47,11 @@ func createTask() func(int) {
 	}
 }
 
-// set GOPATH=
+// G:\GitHub\learnGo\Go语言实战\ch07_并发模式\runner\src\runner\main>set GOPATH=G:\GitHub\learnGo\Go语言实战\ch07_并发模式\runner
+// G:\GitHub\learnGo\Go语言实战\ch07_并发模式\runner\src\runner\main>go run main.go
+// 2019/10/07 18:41:42 Starting work.
+// 2019/10/07 18:41:42 Processor - Task #0.
+// 2019/10/07 18:41:42 Processor - Task #1.
+// 2019/10/07 18:41:43 Processor - Task #2.
+// 2019/10/07 18:41:45 Terminating due to timeout.
+// exit status 1

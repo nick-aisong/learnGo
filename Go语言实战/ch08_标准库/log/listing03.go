@@ -42,3 +42,8 @@ const (
 	// 标准日志记录器的初始值
 	LstdFlags = Ldate | Ltime
 )
+
+// G:\GitHub\learnGo\Go语言实战\ch08_标准库\log>go run listing03.go
+// TRACE: 2019/10/07 18:30:59.261599 G:/GitHub/learnGo/Go语言实战/ch08_标准库/log/listing03.go:16: message
+// TRACE: 2019/10/07 18:30:59.289524 G:/GitHub/learnGo/Go语言实战/ch08_标准库/log/listing03.go:19: fatal message
+// exit status 1

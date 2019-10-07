@@ -35,3 +35,5 @@ func main() {
 		log.Println(err)
 	}
 }
+
+// G:\GitHub\learnGo\Go语言实战\ch08_标准库\io>go run listing46.go http://www.baidu.com listing46_output.txt

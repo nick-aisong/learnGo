@@ -76,3 +76,29 @@ func worker(tasks chan string, worker int) {
 		fmt.Printf("Worker: %d : Completed %s\n", worker, task)
 	}
 }
+
+// G:\GitHub\learnGo\Go语言实战\ch06_并发>go run listing24.go
+// Worker: 4 : Started Task : 4
+// Worker: 2 : Started Task : 1
+// Worker: 3 : Started Task : 3
+// Worker: 1 : Started Task : 2
+// Worker: 2 : Completed Task : 1
+// Worker: 2 : Started Task : 5
+// Worker: 3 : Completed Task : 3
+// Worker: 3 : Started Task : 6
+// Worker: 4 : Completed Task : 4
+// Worker: 4 : Started Task : 7
+// Worker: 2 : Completed Task : 5
+// Worker: 2 : Started Task : 8
+// Worker: 3 : Completed Task : 6
+// Worker: 3 : Started Task : 9
+// Worker: 1 : Completed Task : 2
+// Worker: 1 : Started Task : 10
+// Worker: 1 : Completed Task : 10
+// Worker: 1 : Shutting Down
+// Worker: 2 : Completed Task : 8
+// Worker: 2 : Shutting Down
+// Worker: 4 : Completed Task : 7
+// Worker: 4 : Shutting Down
+// Worker: 3 : Completed Task : 9
+// Worker: 3 : Shutting Down

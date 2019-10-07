@@ -79,3 +79,6 @@ func main() {
 // 	}
 // 	return n, err
 // }
+
+// G:\GitHub\learnGo\Go语言实战\ch08_标准库\io>go run listing37.go
+// Hello World!

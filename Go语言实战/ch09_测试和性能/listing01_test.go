@@ -40,3 +40,13 @@ func TestDownload(t *testing.T) {
 		}
 	}
 }
+
+// G:\GitHub\learnGo\Go语言实战\ch09_测试和性能>go test listing01_test.go -v
+// === RUN   TestDownload
+// --- PASS: TestDownload (0.04s)
+//         listing01_test.go:18: Given the need to test downloading content.
+//         listing01_test.go:21:   When checking "http://www.baidu.com" for status code "200"
+//         listing01_test.go:29:           Should be able to make the Get call. ✓
+//         listing01_test.go:35:           Should receive a "200" status. ✓
+// PASS
+// ok      command-line-arguments  1.908s

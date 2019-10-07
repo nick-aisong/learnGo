@@ -39,3 +39,6 @@ func main() {
 
 	fmt.Println(c)
 }
+
+// G:\GitHub\learnGo\Go语言实战\ch08_标准库\json>go run listing27.go
+// {Gopher programmer {415.333.3333 415.555.5555}}

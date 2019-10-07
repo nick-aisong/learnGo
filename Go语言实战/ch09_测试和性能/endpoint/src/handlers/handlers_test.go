@@ -62,3 +62,16 @@ func TestSendJSON(t *testing.T) {
 		}
 	}
 }
+
+// G:\GitHub\learnGo\Go语言实战\ch09_测试和性能\endpoint>set GOPATH=G:\GitHub\learnGo\Go语言实战\ch09_测试和性能\endpoint
+// G:\GitHub\learnGo\Go语言实战\ch09_测试和性能\endpoint\src\handlers>go test handlers_test.go -v
+// === RUN   TestSendJSON
+// --- PASS: TestSendJSON (0.00s)
+//         handlers_test.go:24: Given the need to test the SendJSON endpoint.
+//         handlers_test.go:32:    Should be able to create a request. ✓
+//         handlers_test.go:40:    Should receive "200" ✓
+//         handlers_test.go:50:    Should decode the response. ✓
+//         handlers_test.go:53:    Should have a Name. ✓
+//         handlers_test.go:59:    Should have an Email. ✓
+// PASS
+// ok      command-line-arguments  2.097s

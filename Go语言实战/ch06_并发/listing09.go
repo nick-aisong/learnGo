@@ -52,3 +52,28 @@ func incCounter(id int) {
 }
 
 // go build -race
+
+// Windows 10 解决cmd中文乱码：
+// CHCP 65001
+
+// G:\GitHub\learnGo\Go语言实战\ch06_并发>listing09.exe
+// ==================
+// WARNING: DATA RACE
+// Read at 0x000000f54f40 by goroutine 7:
+//   main.incCounter()
+//       G:/GitHub/learnGo/Go语言实战/ch06_并发/listing09.go:41 +0x7d
+
+// Previous write at 0x000000f54f40 by goroutine 6:
+//   main.incCounter()
+//       G:/GitHub/learnGo/Go语言实战/ch06_并发/listing09.go:50 +0xa1
+
+// Goroutine 7 (running) created at:
+//   main.main()
+//       G:/GitHub/learnGo/Go语言实战/ch06_并发/listing09.go:27 +0x90
+
+// Goroutine 6 (finished) created at:
+//   main.main()
+//       G:/GitHub/learnGo/Go语言实战/ch06_并发/listing09.go:26 +0x6f
+// ==================
+// Final Counter: 4
+// Found 1 data race(s)

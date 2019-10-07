@@ -55,3 +55,16 @@ func doWork(name string) {
 		}
 	}
 }
+
+// G:\GitHub\learnGo\Go语言实战\ch06_并发>go run listing15.go
+// Doing A Work
+// Doing B Work
+// Doing B Work
+// Doing A Work
+// Doing B Work
+// Doing A Work
+// Doing B Work
+// Doing A Work
+// Shutdown Now
+// Shutting B Down
+// Shutting A Down

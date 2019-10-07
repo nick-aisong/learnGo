@@ -73,3 +73,13 @@ func TestDownload(t *testing.T) {
 		}
 	}
 }
+
+// G:\GitHub\learnGo\Go语言实战\ch09_测试和性能>go test listing12_test.go -v
+// === RUN   TestDownload
+// --- PASS: TestDownload (0.01s)
+//         listing12_test.go:52: Given the need to test downloading content.
+//         listing12_test.go:55:   When checking "http://127.0.0.1:27051" for status code "200"
+//         listing12_test.go:63:           Should be able to make the Get call. ✓
+//         listing12_test.go:72:           Should receive a "200" status. ✓
+// PASS
+// ok      command-line-arguments  1.812s

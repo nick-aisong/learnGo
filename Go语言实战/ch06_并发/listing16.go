@@ -63,3 +63,6 @@ func incCounter(id int) {
 		// 进入临界区
 	}
 }
+
+// G:\GitHub\learnGo\Go语言实战\ch06_并发>go run listing16.go
+// Final Counter: 4

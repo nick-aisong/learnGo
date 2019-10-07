@@ -87,3 +87,132 @@ func performQueries(query int, p *pool.Pool) {
 	time.Sleep(time.Duration(rand.Intn(1000)) * time.Millisecond)
 	log.Printf("QID[%d] CID[%d]\n", query, conn.(*dbConnection).ID)
 }
+
+// G:\GitHub\learnGo\Go语言实战\ch07_并发模式\runner\src\runner\main>set GOPATH=G:\GitHub\learnGo\Go语言实战\ch07_并发模式\pool
+// G:\GitHub\learnGo\Go语言实战\ch07_并发模式\pool\src\pool\main>go run main.go
+// 2019/10/07 18:39:46 Acquire: New Resource
+// 2019/10/07 18:39:46 Acquire: New Resource
+// 2019/10/07 18:39:46 Create: New Connection 2
+// 2019/10/07 18:39:46 Acquire: New Resource
+// 2019/10/07 18:39:46 Create: New Connection 3
+// 2019/10/07 18:39:46 Acquire: New Resource
+// 2019/10/07 18:39:46 Acquire: New Resource
+// 2019/10/07 18:39:46 Create: New Connection 4
+// 2019/10/07 18:39:46 Acquire: New Resource
+// 2019/10/07 18:39:46 Create: New Connection 6
+// 2019/10/07 18:39:46 Acquire: New Resource
+// 2019/10/07 18:39:46 Create: New Connection 7
+// 2019/10/07 18:39:46 Acquire: New Resource
+// 2019/10/07 18:39:46 Create: New Connection 8
+// 2019/10/07 18:39:46 Acquire: New Resource
+// 2019/10/07 18:39:46 Create: New Connection 9
+// 2019/10/07 18:39:46 Acquire: New Resource
+// 2019/10/07 18:39:46 Create: New Connection 10
+// 2019/10/07 18:39:46 Acquire: New Resource
+// 2019/10/07 18:39:46 Create: New Connection 11
+// 2019/10/07 18:39:46 Acquire: New Resource
+// 2019/10/07 18:39:46 Create: New Connection 12
+// 2019/10/07 18:39:46 Acquire: New Resource
+// 2019/10/07 18:39:46 Create: New Connection 13
+// 2019/10/07 18:39:46 Acquire: New Resource
+// 2019/10/07 18:39:46 Create: New Connection 14
+// 2019/10/07 18:39:46 Create: New Connection 1
+// 2019/10/07 18:39:46 Acquire: New Resource
+// 2019/10/07 18:39:46 Create: New Connection 15
+// 2019/10/07 18:39:46 Create: New Connection 5
+// 2019/10/07 18:39:46 Acquire: New Resource
+// 2019/10/07 18:39:46 Create: New Connection 16
+// 2019/10/07 18:39:46 Acquire: New Resource
+// 2019/10/07 18:39:46 Create: New Connection 17
+// 2019/10/07 18:39:46 Acquire: New Resource
+// 2019/10/07 18:39:46 Create: New Connection 18
+// 2019/10/07 18:39:46 Acquire: New Resource
+// 2019/10/07 18:39:46 Create: New Connection 19
+// 2019/10/07 18:39:46 Acquire: New Resource
+// 2019/10/07 18:39:46 Create: New Connection 20
+// 2019/10/07 18:39:46 Acquire: New Resource
+// 2019/10/07 18:39:46 Create: New Connection 21
+// 2019/10/07 18:39:46 Acquire: New Resource
+// 2019/10/07 18:39:46 Create: New Connection 22
+// 2019/10/07 18:39:46 Acquire: New Resource
+// 2019/10/07 18:39:46 Create: New Connection 23
+// 2019/10/07 18:39:46 Acquire: New Resource
+// 2019/10/07 18:39:46 Create: New Connection 24
+// 2019/10/07 18:39:46 Acquire: New Resource
+// 2019/10/07 18:39:46 Create: New Connection 25
+// 2019/10/07 18:39:46 QID[10] CID[6]
+// 2019/10/07 18:39:46 Release: In Queue
+// 2019/10/07 18:39:46 QID[15] CID[25]
+// 2019/10/07 18:39:46 Release: In Queue
+// 2019/10/07 18:39:46 QID[24] CID[2]
+// 2019/10/07 18:39:46 Release: Closing
+// 2019/10/07 18:39:46 Close: Connection 2
+// 2019/10/07 18:39:46 QID[12] CID[7]
+// 2019/10/07 18:39:46 Release: Closing
+// 2019/10/07 18:39:46 Close: Connection 7
+// 2019/10/07 18:39:46 QID[4] CID[15]
+// 2019/10/07 18:39:46 Release: Closing
+// 2019/10/07 18:39:46 Close: Connection 15
+// 2019/10/07 18:39:46 QID[1] CID[20]
+// 2019/10/07 18:39:46 Release: Closing
+// 2019/10/07 18:39:46 Close: Connection 20
+// 2019/10/07 18:39:46 QID[3] CID[1]
+// 2019/10/07 18:39:46 Release: Closing
+// 2019/10/07 18:39:46 Close: Connection 1
+// 2019/10/07 18:39:46 QID[13] CID[17]
+// 2019/10/07 18:39:46 Release: Closing
+// 2019/10/07 18:39:46 Close: Connection 17
+// 2019/10/07 18:39:46 QID[21] CID[19]
+// 2019/10/07 18:39:46 Release: Closing
+// 2019/10/07 18:39:46 Close: Connection 19
+// 2019/10/07 18:39:46 QID[9] CID[16]
+// 2019/10/07 18:39:46 Release: Closing
+// 2019/10/07 18:39:46 Close: Connection 16
+// 2019/10/07 18:39:46 QID[2] CID[24]
+// 2019/10/07 18:39:46 Release: Closing
+// 2019/10/07 18:39:46 Close: Connection 24
+// 2019/10/07 18:39:46 QID[20] CID[12]
+// 2019/10/07 18:39:46 Release: Closing
+// 2019/10/07 18:39:46 Close: Connection 12
+// 2019/10/07 18:39:46 QID[14] CID[8]
+// 2019/10/07 18:39:46 Release: Closing
+// 2019/10/07 18:39:46 Close: Connection 8
+// 2019/10/07 18:39:47 QID[0] CID[9]
+// 2019/10/07 18:39:47 Release: Closing
+// 2019/10/07 18:39:47 Close: Connection 9
+// 2019/10/07 18:39:47 QID[18] CID[11]
+// 2019/10/07 18:39:47 Release: Closing
+// 2019/10/07 18:39:47 Close: Connection 11
+// 2019/10/07 18:39:47 QID[17] CID[18]
+// 2019/10/07 18:39:47 Release: Closing
+// 2019/10/07 18:39:47 Close: Connection 18
+// 2019/10/07 18:39:47 QID[19] CID[22]
+// 2019/10/07 18:39:47 Release: Closing
+// 2019/10/07 18:39:47 Close: Connection 22
+// 2019/10/07 18:39:47 QID[23] CID[14]
+// 2019/10/07 18:39:47 Release: Closing
+// 2019/10/07 18:39:47 Close: Connection 14
+// 2019/10/07 18:39:47 QID[11] CID[21]
+// 2019/10/07 18:39:47 Release: Closing
+// 2019/10/07 18:39:47 Close: Connection 21
+// 2019/10/07 18:39:47 QID[16] CID[10]
+// 2019/10/07 18:39:47 Release: Closing
+// 2019/10/07 18:39:47 Close: Connection 10
+// 2019/10/07 18:39:47 QID[6] CID[23]
+// 2019/10/07 18:39:47 Release: Closing
+// 2019/10/07 18:39:47 Close: Connection 23
+// 2019/10/07 18:39:47 QID[22] CID[13]
+// 2019/10/07 18:39:47 Release: Closing
+// 2019/10/07 18:39:47 Close: Connection 13
+// 2019/10/07 18:39:47 QID[8] CID[5]
+// 2019/10/07 18:39:47 Release: Closing
+// 2019/10/07 18:39:47 Close: Connection 5
+// 2019/10/07 18:39:47 QID[7] CID[4]
+// 2019/10/07 18:39:47 Release: Closing
+// 2019/10/07 18:39:47 Close: Connection 4
+// 2019/10/07 18:39:47 QID[5] CID[3]
+// 2019/10/07 18:39:47 Release: Closing
+// 2019/10/07 18:39:47 Close: Connection 3
+// 2019/10/07 18:39:47 Shutdown Program.
+// 2019/10/07 18:39:47 Close: Connection 6
+// 2019/10/07 18:39:47 Close: Connection 25

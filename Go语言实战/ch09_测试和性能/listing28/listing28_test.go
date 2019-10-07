@@ -51,3 +51,10 @@ func BenchmarkItoa(b *testing.B) {
 // go test -v -run="none" -bench="BenchmarkSprintf"
 // go test -v -run="none" -bench="BenchmarkSprintf -benchtime="3s" -benchmem
 // go test -v -run="none" -bench=. -benchmem
+
+// G:\GitHub\learnGo\Go语言实战\ch09_测试和性能\listing28>go test -v -run="none" -bench=. -benchmem
+// BenchmarkSprintf-4      10000000               148 ns/op              16 B/op          2 allocs/op
+// BenchmarkFormat-4       30000000                43.1 ns/op             2 B/op          1 allocs/op
+// BenchmarkItoa-4         30000000                45.4 ns/op             2 B/op          1 allocs/op
+// PASS
+// ok      _/G_/GitHub/learnGo/Go语言实战/ch09_测试和性能/listing28        6.056s

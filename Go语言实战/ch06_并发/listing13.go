@@ -47,3 +47,6 @@ func incCounter(id int) {
 		runtime.Gosched()
 	}
 }
+
+// G:\GitHub\learnGo\Go语言实战\ch06_并发>go run listing13.go
+// Final Counter: 4

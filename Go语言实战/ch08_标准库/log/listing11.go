@@ -62,3 +62,8 @@ func main() {
 // func (l *Logger) Println(v ...interface{})
 // func (l *Logger) SetFlags(flag int)
 // func (l *Logger) SetPrefix(prefix string)
+
+// G:\GitHub\learnGo\Go语言实战\ch08_标准库\log>go run listing11.go
+// INFO: 2019/10/07 18:31:24 listing11.go:45: Special Information
+// WARNING: 2019/10/07 18:31:24 listing11.go:46: There is something you need to know about
+// ERROR: 2019/10/07 18:31:24 listing11.go:47: Something has failed

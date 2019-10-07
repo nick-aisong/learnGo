@@ -33,3 +33,10 @@ func main() {
 	fmt.Println("H:", c["contact"].(map[string]interface{})["home"])
 	fmt.Println("C:", c["contact"].(map[string]interface{})["cell"])
 }
+
+// G:\GitHub\learnGo\Go语言实战\ch08_标准库\json>go run listing29.go
+// Name: Gopher
+// Title: programmer
+// Contact
+// H: 415.333.3333
+// C: 415.555.5555

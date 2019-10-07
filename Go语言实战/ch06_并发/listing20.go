@@ -68,3 +68,15 @@ func player(name string, court chan int) {
 		court <- ball
 	}
 }
+
+// G:\GitHub\learnGo\Go语言实战\ch06_并发>go run listing20.go
+// Player Djokovic Hit 1
+// Player Nadal Hit 2
+// Player Djokovic Hit 3
+// Player Nadal Hit 4
+// Player Djokovic Hit 5
+// Player Nadal Hit 6
+// Player Djokovic Hit 7
+// Player Nadal Hit 8
+// Player Djokovic Missed
+// Player Nadal Won

@@ -27,3 +27,13 @@ func main() {
 
 	fmt.Println(string(data))
 }
+
+// G:\GitHub\learnGo\Go语言实战\ch08_标准库\json>go run listing31.go
+// {
+//  "contact": {
+//   "cell": "415.555.5555",
+//   "home": "415.333.3333"
+//  },
+//  "name": "Gopher",
+//  "title": "programmer"
+// }

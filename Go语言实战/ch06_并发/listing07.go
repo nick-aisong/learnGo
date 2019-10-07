@@ -53,3 +53,9 @@ func main() {
 
 	fmt.Println("\nTerminating Program")
 }
+
+// G:\GitHub\learnGo\Go语言实战\ch06_并发>go run listing07.go
+// Start Goroutines
+// Waiting To Finish
+// a b c d e f g h i j k l m n o p q r s t u v w x y z a A B C D E b c d e f g h i j k l m n o p q r s t F G H I J K L M N O P Q R S T U V W X Y Z A B C D E F G H I J K L M N O P Q R S T u v w x y z a b c d e f g h i j k l m n o p q r s t u v w x y z U V W X Y Z A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+// Terminating Program

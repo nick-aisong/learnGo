@@ -64,3 +64,16 @@ func Runner(baton chan int) {
 
 	baton <- newRunner
 }
+
+// G:\GitHub\learnGo\Go语言实战\ch06_并发>go run listing22.go
+// Runner 1 Running With Baton
+// Runner 2 To The Line
+// Runner 1 Exchange With Runner 2
+// Runner 2 Running With Baton
+// Runner 3 To The Line
+// Runner 2 Exchange With Runner 3
+// Runner 3 Running With Baton
+// Runner 4 To The Line
+// Runner 3 Exchange With Runner 4
+// Runner 4 Running With Baton
+// Runner 4 Finished, Race Over
