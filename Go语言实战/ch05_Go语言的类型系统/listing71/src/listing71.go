@@ -5,7 +5,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/goinaction/code/chapter5/listing71/entities"
+	"entities"
 )
 
 // main 是应用程序的入口
