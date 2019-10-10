@@ -1,2 +1,3 @@
+书中例子基于go1.6
 学习环境：
 go version go1.8.3 windowsamd64
