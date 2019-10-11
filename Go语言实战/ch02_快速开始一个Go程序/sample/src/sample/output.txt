@@ -1,0 +1,110 @@
+2019/10/12 01:00:56 Search Feed Type[rss] Site[npr] For URI[http://www.npr.org/rss/rss.php?id=1007]
+2019/10/12 01:00:56 Search Feed Type[rss] Site[npr] For URI[http://www.npr.org/rss/rss.php?id=1008]
+2019/10/12 01:00:56 Search Feed Type[rss] Site[npr] For URI[http://www.npr.org/rss/rss.php?id=1001]
+2019/10/12 01:00:56 Search Feed Type[rss] Site[bbci] For URI[http://feeds.bbci.co.uk/news/world/us_and_canada/rss.xml]
+2019/10/12 01:00:56 Search Feed Type[rss] Site[npr] For URI[http://www.npr.org/rss/rss.php?id=1057]
+2019/10/12 01:00:56 Search Feed Type[rss] Site[npr] For URI[http://www.npr.org/rss/rss.php?id=1021]
+2019/10/12 01:00:56 Search Feed Type[rss] Site[npr] For URI[http://www.npr.org/rss/rss.php?id=1012]
+2019/10/12 01:00:56 Search Feed Type[rss] Site[npr] For URI[http://www.npr.org/rss/rss.php?id=1003]
+2019/10/12 01:00:56 Search Feed Type[rss] Site[npr] For URI[http://www.npr.org/rss/rss.php?id=2]
+2019/10/12 01:00:56 Search Feed Type[rss] Site[npr] For URI[http://www.npr.org/rss/rss.php?id=3]
+2019/10/12 01:00:56 Search Feed Type[rss] Site[npr] For URI[http://www.npr.org/rss/rss.php?id=5]
+2019/10/12 01:00:56 Search Feed Type[rss] Site[npr] For URI[http://www.npr.org/rss/rss.php?id=13]
+2019/10/12 01:00:56 Search Feed Type[rss] Site[npr] For URI[http://www.npr.org/rss/rss.php?id=46]
+2019/10/12 01:00:56 Search Feed Type[rss] Site[npr] For URI[http://www.npr.org/rss/rss.php?id=7]
+2019/10/12 01:00:56 Search Feed Type[rss] Site[npr] For URI[http://www.npr.org/rss/rss.php?id=10]
+2019/10/12 01:00:56 Search Feed Type[rss] Site[npr] For URI[http://www.npr.org/rss/rss.php?id=39]
+2019/10/12 01:00:56 Search Feed Type[rss] Site[npr] For URI[http://www.npr.org/rss/rss.php?id=43]
+2019/10/12 01:00:56 Search Feed Type[rss] Site[bbci] For URI[http://feeds.bbci.co.uk/news/rss.xml]
+2019/10/12 01:00:56 Search Feed Type[rss] Site[cnn] For URI[http://rss.cnn.com/rss/cnn_topstories.rss]
+2019/10/12 01:00:56 Search Feed Type[rss] Site[cnn] For URI[http://rss.cnn.com/rss/cnn_world.rss]
+2019/10/12 01:00:56 Search Feed Type[rss] Site[cnn] For URI[http://rss.cnn.com/rss/cnn_us.rss]
+2019/10/12 01:00:56 Search Feed Type[rss] Site[cnn] For URI[http://rss.cnn.com/rss/cnn_allpolitics.rss]
+2019/10/12 01:00:56 Search Feed Type[rss] Site[cnn] For URI[http://rss.cnn.com/rss/cnn_crime.rss]
+2019/10/12 01:00:56 Search Feed Type[rss] Site[cnn] For URI[http://rss.cnn.com/rss/cnn_tech.rss]
+2019/10/12 01:00:56 Search Feed Type[rss] Site[cnn] For URI[http://rss.cnn.com/rss/cnn_health.rss]
+2019/10/12 01:00:56 Search Feed Type[rss] Site[cnn] For URI[http://rss.cnn.com/rss/cnn_topstories.rss]
+2019/10/12 01:00:56 Search Feed Type[rss] Site[foxnews] For URI[http://feeds.foxnews.com/foxnews/opinion?format=xml]
+2019/10/12 01:00:56 Search Feed Type[rss] Site[foxnews] For URI[http://feeds.foxnews.com/foxnews/politics?format=xml]
+2019/10/12 01:00:56 Search Feed Type[rss] Site[bbci] For URI[http://feeds.bbci.co.uk/news/business/rss.xml]
+2019/10/12 01:00:56 Search Feed Type[rss] Site[foxnews] For URI[http://feeds.foxnews.com/foxnews/national?format=xml]
+2019/10/12 01:00:56 Search Feed Type[rss] Site[nbcnews] For URI[http://feeds.nbcnews.com/feeds/usnews]
+2019/10/12 01:00:56 Search Feed Type[rss] Site[foxnews] For URI[http://feeds.foxnews.com/foxnews/world?format=xml]
+2019/10/12 01:00:56 Search Feed Type[rss] Site[nbcnews] For URI[http://rss.msnbc.msn.com/id/21491043/device/rss/rss.xml]
+2019/10/12 01:00:56 Search Feed Type[rss] Site[nbcnews] For URI[http://rss.msnbc.msn.com/id/21491571/device/rss/rss.xml]
+2019/10/12 01:00:56 Search Feed Type[rss] Site[nbcnews] For URI[http://feeds.nbcnews.com/feeds/topstories]
+2019/10/12 01:00:56 Search Feed Type[rss] Site[nbcnews] For URI[http://rss.msnbc.msn.com/id/28180066/device/rss/rss.xml]
+2019/10/12 01:00:56 Search Feed Type[rss] Site[npr] For URI[http://www.npr.org/rss/rss.php?id=1006]
+2019/10/12 01:00:56 Get http://rss.cnn.com/rss/cnn_crime.rss: read tcp 192.168.0.107:23964->216.58.200.243:80: wsarecv: An existing connection was forcibly closed by the remote host.
+2019/10/12 01:00:56 Get http://rss.cnn.com/rss/cnn_tech.rss: read tcp 192.168.0.107:23965->216.58.200.243:80: wsarecv: An existing connection was forcibly closed by the remote host.
+2019/10/12 01:00:56 Get http://rss.cnn.com/rss/cnn_health.rss: read tcp 192.168.0.107:23967->216.58.200.243:80: wsarecv: An existing connection was forcibly closed by the remote host.
+2019/10/12 01:00:56 Get http://rss.cnn.com/rss/cnn_world.rss: read tcp 192.168.0.107:23969->216.58.200.243:80: wsarecv: An existing connection was forcibly closed by the remote host.
+2019/10/12 01:00:56 Get http://rss.cnn.com/rss/cnn_allpolitics.rss: read tcp 192.168.0.107:23961->216.58.200.243:80: wsarecv: An existing connection was forcibly closed by the remote host.
+2019/10/12 01:00:56 Get http://rss.cnn.com/rss/cnn_topstories.rss: read tcp 192.168.0.107:23959->216.58.200.243:80: wsarecv: An existing connection was forcibly closed by the remote host.
+2019/10/12 01:00:56 Get http://rss.cnn.com/rss/cnn_us.rss: read tcp 192.168.0.107:23966->216.58.200.243:80: wsarecv: An existing connection was forcibly closed by the remote host.
+2019/10/12 01:00:56 Get http://rss.cnn.com/rss/cnn_topstories.rss: read tcp 192.168.0.107:23968->216.58.200.243:80: wsarecv: An existing connection was forcibly closed by the remote host.
+2019/10/12 01:00:57 Description:
+A federal appeals court in Washington has sided against President Trump, saying his financial records must be turned over to the House of Representatives as the president’s legal team prepares to appeal.<img src="http://feeds.feedburner.com/~r/foxnews/politics/~4/krUu4OBdxuc" height="1" width="1" alt=""/>
+
+2019/10/12 01:00:57 Description:
+2020 Democratic presidential candidate Cory Booker, D-N.J., said he's been dealing with the "juxtaposing issues of religious freedom and LGBTQ rights" all of his life as a Christian with people "using religion as a justification for discrimination."<img src="http://feeds.feedburner.com/~r/foxnews/politics/~4/ZOjE6fGr9p4" height="1" width="1" alt=""/>
+
+2019/10/12 01:00:57 Description:
+2020 Democratic presidential hopeful Beto O'Rourke says he'd strip churches of tax-exempt status if they don't support same-sex marriage.<img src="http://feeds.feedburner.com/~r/foxnews/politics/~4/CabHwk7HdJI" height="1" width="1" alt=""/>
+
+2019/10/12 01:00:57 Description:
+While the president has been front-and-center in the Ukraine controversy that sparked House Democrats to launch an impeachment inquiry into Trump, Biden’s another key player, and with the impeachment push overshadowing the 2020 White House race, the Democrat has grabbed outsized attention over his rivals for the presidential nomination.<img src="http://feeds.feedburner.com/~r/foxnews/politics/~4/sq7YOmu7pWw" height="1" width="1" alt=""/>
+
+2019/10/12 01:00:57 Title:
+Taiwan president rejects China's offer of ‘one country, two systems’
+
+2019/10/12 01:00:57 Description:
+Taiwan’s president on Thursday delivered a fiery rebuke to China’s offer of a “one country, two systems” formula to unify the self-governing island with the mainland, saying that such a framework has taken Hong Kong to “the brink of disorder.”<img src="http://feeds.feedburner.com/~r/foxnews/world/~4/OTgL6I_3tA4" height="1" width="1" alt=""/>
+
+2019/10/12 01:00:57 expected element type <rss> but have <html>
+2019/10/12 01:00:57 expected element type <rss> but have <html>
+2019/10/12 01:00:57 expected element type <rss> but have <html>
+2019/10/12 01:00:57 Description:
+Marie Yovanovitch was recalled from her post in May after criticism from some Republicans, including the president's eldest son, that she was not supportive of the administration's policies. 
+
+2019/10/12 01:00:57 Description:
+The president has angered many in the GOP with his abrupt decision to move U.S. troops in Syria. The move comes as congressional Republicans are also trying to defend Trump from being impeached.
+
+2019/10/12 01:00:57 Description:
+At a labor conference in California, Democratic presidential candidates tried to focus on non-impeachment news, but it's still overshadowing everything else.
+
+2019/10/12 01:00:57 Description:
+Casualties are starting to mount with Turkey's incursion into Syria to remove U.S.-allied Kurds. Turkey's president says he wants to create a safe zone. Others see a humanitarian crisis in the making.
+
+2019/10/12 01:00:57 Description:
+<em>Bloomberg Businessweek </em>columnist Joshua Green says Trump fell for a media campaign on Ukraine designed to help him: "The irony is that the target was supposed to be the Bidens, not the president."
+
+2019/10/12 01:00:57 Description:
+In 2014, Christopher Wylie resigned from his position as Cambridge Analytica's research director. He later exposed the company's role in the Trump presidential campaign and the Brexit referendum.
+
+2019/10/12 01:00:57 Description:
+<em>Border Wars</em> authors Julie Hirschfeld Davis and Michael Shear chronicle the president's attempts to upend the nation's immigration system — including a proposed alligator-filled border trench.
+
+2019/10/12 01:00:57 Description:
+Freeman Hrabowski, president of the University of Maryland, Baltimore County, talks about the importance of mentoring in academia, especially in science, technology, engineering and math fields.
+
+2019/10/12 01:00:57 Description:
+Retail and fast-food workers protesting for higher pay are creating a new kind of U.S. labor movement. <em>Chicago Tribune</em> columnist Clarence Page argues that the president could "set a good example" by requiring fast-food vendors who have contracts with the federal government to pay minimum wage.
+
+2019/10/12 01:00:58 Description:
+As part of NPR's "Off Script" series, Lulu Garcia-Navarro speaks to Democratic presidential candidate Julián Castro about how he's doing in the race and about the impeachment inquiry.
+
+2019/10/12 01:00:58 Description:
+Pennsylvania Republican Brian Fitzpatrick is an ex-FBI agent who investigated corruption in Ukraine. Now left-leaning voters in his swing district want him to help in investigate the president.
+
+2019/10/12 01:00:58 Description:
+Marie Yovanovitch was recalled from her post in May after criticism from some Republicans, including the president's eldest son, that she was not supportive of the administration's policies. 
+
+2019/10/12 01:00:58 Description:
+The president has angered many in the GOP with his abrupt decision to move U.S. troops in Syria. The move comes as congressional Republicans are also trying to defend Trump from being impeached.
+
+2019/10/12 01:01:17 Get http://feeds.nbcnews.com/feeds/topstories: dial tcp 69.63.184.14:80: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2019/10/12 01:01:17 Get http://feeds.bbci.co.uk/news/business/rss.xml: dial tcp 31.13.83.1:80: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2019/10/12 01:01:17 Get http://feeds.bbci.co.uk/news/rss.xml: dial tcp 31.13.83.1:80: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2019/10/12 01:01:17 Get http://feeds.bbci.co.uk/news/world/us_and_canada/rss.xml: dial tcp 31.13.83.1:80: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2019/10/12 01:01:17 Get http://feeds.nbcnews.com/feeds/usnews: dial tcp 69.63.184.14:80: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
