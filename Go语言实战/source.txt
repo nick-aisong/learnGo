@@ -1,1 +1,2 @@
 https://github.com/goinaction
+https://www.manning.com/books/go-in-action
