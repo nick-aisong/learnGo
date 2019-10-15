@@ -1,0 +1,2 @@
+https://mikespook.com/learning-go/
+https://github.com/mikespook/Learning-Go-zh-cn
