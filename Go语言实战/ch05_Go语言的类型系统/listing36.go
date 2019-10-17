@@ -43,3 +43,8 @@ func main() {
 func sendNotification(n notifier) {
 	n.notify()
 }
+
+// G:\GitHub\learnGo\Go语言实战\ch05_Go语言的类型系统>go run listing36.go
+// # command-line-arguments
+// .\listing36.go:33: cannot use u (type user) as type notifier in argument to sendNotification:
+//         user does not implement notifier (notify method has pointer receiver)

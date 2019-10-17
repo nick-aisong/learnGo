@@ -23,3 +23,6 @@ func main() {
 	// 将 Buffer 的内容写到 Stdout
 	io.Copy(os.Stdout, &b)
 }
+
+// G:\GitHub\learnGo\Go语言实战\ch05_Go语言的类型系统>go run listing35.go
+// HelloWorld!

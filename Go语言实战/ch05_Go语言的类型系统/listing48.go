@@ -6,8 +6,7 @@ import (
 	"fmt"
 )
 
-// notifier 是一个定义了
-// 通知类行为的接口
+// notifier 是一个定义了通知类行为的接口
 type notifier interface {
 	notify()
 }
@@ -54,3 +53,7 @@ func main() {
 func sendNotification(n notifier) {
 	n.notify()
 }
+
+// G:\GitHub\learnGo\Go语言实战\ch05_Go语言的类型系统>go run listing48.go
+// Sending user email to Bill<bill@email.com>
+// Sending admin email to Lisa<lisa@email.com>

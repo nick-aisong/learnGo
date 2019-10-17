@@ -1,6 +1,5 @@
 // 5-46 listing46.go
-// 这个示例程序展示不是总能
-// 获取值的地址
+// 这个示例程序展示不是总能获取值的地址
 package main
 
 import "fmt"
@@ -29,8 +28,13 @@ func main() {
 // *T 			(t T) and (t *T)
 
 // 值接收方法可以接收值和指针
-// 指针接收方法值可以接收指针
+// 指针接收方法只可以接收指针
 //  Methods 	Receivers Values
 // -----------------------------------------------
 // (t T) 		T and *T
 // (t *T) 		*T
+
+// G:\GitHub\learnGo\Go语言实战\ch05_Go语言的类型系统>go run listing46.go
+// # command-line-arguments
+// .\listing46.go:17: cannot call pointer method on duration(42)
+// .\listing46.go:17: cannot take the address of duration(42)

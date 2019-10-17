@@ -1,6 +1,5 @@
 // 8-24 listing24.go
-// 这个示例程序展示如何使用 json 包和 NewDecoder 函数
-// 来解码 JSON 响应
+// 这个示例程序展示如何使用 json 包和 NewDecoder 函数来解码 JSON 响应
 package main
 
 import (

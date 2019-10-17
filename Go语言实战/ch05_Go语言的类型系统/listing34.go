@@ -13,7 +13,7 @@ import (
 // init 在 main 函数之前调用
 func init() {
 	if len(os.Args) != 2 {
-		fmt.Println("Usage: ./example2 <url>")
+		fmt.Println("Usage: ./" + os.Args[0] + " <url>")
 		os.Exit(-1)
 	}
 }
@@ -33,3 +33,15 @@ func main() {
 		fmt.Println(err)
 	}
 }
+
+// G:\GitHub\learnGo\Go语言实战\ch05_Go语言的类型系统>go run listing34.go https://www.baidu.com
+// <html>
+// <head>
+//         <script>
+//                 location.replace(location.href.replace("https://","http://"));
+//         </script>
+// </head>
+// <body>
+//         <noscript><meta http-equiv="refresh" content="0;url=http://www.baidu.com/"></noscript>
+// </body>
+// </html>

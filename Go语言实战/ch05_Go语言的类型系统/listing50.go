@@ -13,8 +13,7 @@ type user struct {
 	email string
 }
 
-// notify 实现了一个可以通过 user 类型值的指针
-// 调用的方法
+// notify 实现了一个可以通过 user 类型值的指针调用的方法
 func (u *user) notify() {
 	fmt.Printf("Sending user email to %s<%s>\n",
 		u.name,
@@ -44,3 +43,7 @@ func main() {
 	// 内部类型的方法也被提升到外部类型
 	ad.notify()
 }
+
+// G:\GitHub\learnGo\Go语言实战\ch05_Go语言的类型系统>go run listing50.go
+// Sending user email to john smith<john@yahoo.com>
+// Sending user email to john smith<john@yahoo.com>

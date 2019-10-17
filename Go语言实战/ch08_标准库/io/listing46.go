@@ -1,6 +1,5 @@
 // 8-46 listing46.go
-// 这个示例程序展示如何使用 io.Reader 和 io.Writer 接口
-// 写一个简单版本的 curl
+// 这个示例程序展示如何使用 io.Reader 和 io.Writer 接口写一个简单版本的 curl
 package main
 
 import (
@@ -25,8 +24,7 @@ func main() {
 	}
 	defer file.Close()
 
-	// 使用 MultiWriter，这样就可以同时向文件和标准输出设备
-	// 进行写操作
+	// 使用 MultiWriter，这样就可以同时向文件和标准输出设备进行写操作
 	dest := io.MultiWriter(os.Stdout, file)
 
 	// 读出响应的内容，并写到两个目的地

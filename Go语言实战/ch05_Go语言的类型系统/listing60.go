@@ -1,6 +1,5 @@
 // 5-60 listing60.go
-// 这个示例程序展示当内部类型和外部类型要
-// 实现同一个接口时的做法
+// 这个示例程序展示当内部类型和外部类型要实现同一个接口时的做法
 package main
 
 import (
@@ -33,8 +32,7 @@ type admin struct {
 	level string
 }
 
-// 通过 admin 类型值的指针
-// 调用的方法
+// 通过 admin 类型值的指针调用的方法
 func (a *admin) notify() {
 	fmt.Printf("Sending admin email to %s<%s>\n",
 		a.name,
@@ -53,8 +51,7 @@ func main() {
 	}
 
 	// 给 admin 用户发送一个通知
-	// 接口的嵌入的内部类型实现并没有提升到
-	// 外部类型
+	// 接口的嵌入的内部类型实现并没有提升到外部类型
 	sendNotification(&ad)
 
 	// 我们可以直接访问内部类型的方法
@@ -64,8 +61,12 @@ func main() {
 	ad.notify()
 }
 
-// sendNotification 接受一个实现了 notifier 接口的值
-// 并发送通知
+// sendNotification 接受一个实现了 notifier 接口的值并发送通知
 func sendNotification(n notifier) {
 	n.notify()
 }
+
+// G:\GitHub\learnGo\Go语言实战\ch05_Go语言的类型系统>go run listing60.go
+// Sending admin email to john smith<john@yahoo.com>
+// Sending user email to john smith<john@yahoo.com>
+// Sending admin email to john smith<john@yahoo.com>

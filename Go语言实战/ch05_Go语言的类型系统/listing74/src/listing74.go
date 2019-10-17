@@ -15,10 +15,12 @@ func main() {
 		Rights: 10,
 	}
 
-	// 设置未公开的内部类型的
-	// 公开字段的值
+	// 设置未公开的内部类型的公开字段的值
 	a.Name = "Bill"
 	a.Email = "bill@email.com"
 
 	fmt.Printf("User: %v\n", a)
 }
+
+// G:\GitHub\learnGo\Go语言实战\ch05_Go语言的类型系统\listing74\src>go run listing74.go
+// User: {{Bill bill@email.com} 10}

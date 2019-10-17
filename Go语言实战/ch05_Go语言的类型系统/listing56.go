@@ -6,8 +6,7 @@ import (
 	"fmt"
 )
 
-// notifier 是一个定义了
-// 通知类行为的接口
+// notifier 是一个定义了通知类行为的接口
 type notifier interface {
 	notify()
 }
@@ -18,8 +17,7 @@ type user struct {
 	email string
 }
 
-// 通过 user 类型值的指针
-// 调用的方法
+// 通过 user 类型值的指针调用的方法
 func (u *user) notify() {
 	fmt.Printf("Sending user email to %s<%s>\n",
 		u.name,
@@ -44,8 +42,7 @@ func main() {
 	}
 
 	// 给 admin 用户发送一个通知
-	// 用于实现接口的内部类型的方法，被提升到
-	// 外部类型
+	// 用于实现接口的内部类型的方法，被提升到外部类型
 	sendNotification(&ad)
 }
 
@@ -54,3 +51,6 @@ func main() {
 func sendNotification(n notifier) {
 	n.notify()
 }
+
+// G:\GitHub\learnGo\Go语言实战\ch05_Go语言的类型系统>go run listing56.go
+// Sending user email to john smith<john@yahoo.com>
