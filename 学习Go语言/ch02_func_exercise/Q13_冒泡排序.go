@@ -11,6 +11,23 @@ import (
 	"fmt"
 )
 
+func bubblesort(n []int) {
+	var swapped bool = true
+	for i := 0; i < len(n)-1 && swapped; i++ {
+		swapped = false
+		for j := i + 1; j < len(n); j++ {
+			if n[j] < n[i] {
+				n[i], n[j] = n[j], n[i]
+				swapped = true
+			}
+		}
+		//fmt.Printf("%v\n", n)
+	}
+}
+
 func main() {
-	fmt.Println("Hello World!")
+	var slice = []int{11, 433, 132, 54, 6, 21, 424, 3246, 7, 564}
+	fmt.Printf("Before: %v\n", slice)
+	bubblesort(slice)
+	fmt.Printf("After:  %v\n", slice)
 }
