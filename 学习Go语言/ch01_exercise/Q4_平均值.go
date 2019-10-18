@@ -1,4 +1,5 @@
 /*
+Q4. (0) 平均值
 编写计算一个类型是 float64 的 slice 的平均值的代码
 */
 package main
