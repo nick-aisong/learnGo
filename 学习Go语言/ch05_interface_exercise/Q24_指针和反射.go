@@ -36,6 +36,10 @@ panic: reflect.Value.SetString using value obtained using unexported field
 当然，这仅仅工作于调用 Set() 时传递一个指针参数
 ######################################################
 */
+/*
+1. 当调用一个非指针参数，变量是复制（call-by-value）的。因此，进行魔法般的
+反射是在副本上。这样就不能改变原来的值，仅仅改变副本。
+*/
 package main
 
 import (

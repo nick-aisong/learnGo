@@ -14,17 +14,25 @@ import (
 	"fmt"
 )
 
-func shower(c chan int) {
+func shower(c chan int, quit chan bool) {
 	for {
-		j := <-c
-		fmt.Printf("%d\n", j)
+		select {
+		case j := <-c:
+			fmt.Printf("%d\n", j)
+		case <-quit:
+			break
+		}
 	}
 }
 
 func main() {
 	ch := make(chan int)
-	go shower(ch)
+	quit := make(chan bool)
+	go shower(ch, quit)
 	for i := 0; i < 10; i++ {
+		// me:当把最后一个发送后，线程pending
+		// 直到管道ch里的值被拿走
 		ch <- i
 	}
+	quit <- false
 }
