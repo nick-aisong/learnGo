@@ -7,9 +7,40 @@ Q32. (1) Echo 服务
 package main
 
 import (
+	"bufio"
 	"fmt"
+	"net"
 )
 
-func main() {
-	fmt.Println("Hello World!")
+func Echo(c net.Conn) {
+	defer c.Close()
+	line, err := bufio.NewReader(c).ReadString('\n')
+	if err != nil {
+		fmt.Printf("Failure to read: %s\n", err.Error())
+		return
+	}
+	_, err = c.Write([]byte(line))
+	if err != nil {
+		fmt.Printf("Failure to write %s\n", err.Error())
+		return
+	}
 }
+
+func main() {
+	l, err := net.Listen("tcp", "127.0.0.1:8053")
+	if err != nil {
+		fmt.Printf("Failure to listen: %s\n", err.Error())
+	}
+	for {
+		if c, err := l.Accept(); err != nil {
+			Echo(c)
+		}
+	}
+}
+
+/*
+2. 为了使其能够并发处理链接，只需要修改一行代码，就是：
+if c, err := l.Accept() ; err == nil { Echo(c) }
+改为：
+if c, err := l.Accept() ; err == nil { go Echo(c) }
+*/
