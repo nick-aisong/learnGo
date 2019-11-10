@@ -1,2 +1,2 @@
-https://books.studygolang.com/gobyexample/
+https://books.studygolang.com/gobyexample
 https://github.com/mmcgrana/gobyexample
